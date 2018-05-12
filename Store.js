@@ -28,7 +28,7 @@ export function initialize(apiKey) {
     curated: true,
     format: 'GLTF2',
     key: apiKey,
-    pageSize: 5,
+    pageSize: 5
   };
   const queryString = Object.keys(options)
     .map(k => `${k}=${options[k]}`)
